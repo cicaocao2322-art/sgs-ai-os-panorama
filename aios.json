@@ -1,0 +1,121 @@
+{
+ "schema": "aios-panorama-public/0.1",
+ "as_of": "2026-11-09",
+ "generated_at": "2026-11-08T16:05Z",
+ "source": "SGS AI OS panorama (public subset)",
+ "headline": {
+  "modules": {
+   "registered": 317,
+   "tested": 257,
+   "in_use": 196
+  },
+  "gate": 0,
+  "chains": 14,
+  "guards_fail": 6,
+  "guards_untested": 6
+ },
+ "kpi": {
+  "ok": 2,
+  "total": 19
+ },
+ "layers": [
+  {
+   "id": "L1",
+   "name": "决策与交互",
+   "in_use": 6,
+   "registered": 9,
+   "tested": 7,
+   "kpi_ok": 1,
+   "kpi_total": 3,
+   "lag": 2
+  },
+  {
+   "id": "L2",
+   "name": "业务域与项目",
+   "in_use": 10,
+   "registered": 13,
+   "tested": 10,
+   "kpi_ok": 0,
+   "kpi_total": 3,
+   "lag": 1
+  },
+  {
+   "id": "L3",
+   "name": "Agent 与业务链",
+   "in_use": 4,
+   "registered": 14,
+   "tested": 7,
+   "kpi_ok": 0,
+   "kpi_total": 2,
+   "lag": 1
+  },
+  {
+   "id": "L4",
+   "name": "Harness 控制面",
+   "in_use": 63,
+   "registered": 104,
+   "tested": 77,
+   "kpi_ok": 1,
+   "kpi_total": 5,
+   "lag": 4
+  },
+  {
+   "id": "L5",
+   "name": "AI 能力",
+   "in_use": 89,
+   "registered": 121,
+   "tested": 101,
+   "kpi_ok": 0,
+   "kpi_total": 4,
+   "lag": 3
+  },
+  {
+   "id": "L6",
+   "name": "数据与集成",
+   "in_use": 24,
+   "registered": 56,
+   "tested": 55,
+   "kpi_ok": 0,
+   "kpi_total": 2,
+   "lag": 2
+  }
+ ],
+ "sync": {
+  "Codex": 44.7,
+  "Claude": 40.7,
+  "DSH": 38.2
+ },
+ "advisor": {
+  "pending": 15,
+  "overdue": 0,
+  "suggestions": 17,
+  "done_a": 8,
+  "others": 1
+ },
+ "reports": [
+  {
+   "date": "20261109",
+   "title": "SGS AI OS 全景 · 2026-11-09 期报"
+  },
+  {
+   "date": "20261108",
+   "title": "SGS AI OS 全景 · 2026-11-08 期报"
+  },
+  {
+   "date": "20261105",
+   "title": "SGS AI OS 全景 · 2026-11-05 期报"
+  },
+  {
+   "date": "20261104",
+   "title": "SGS AI OS 全景 · 2026-11-04 期报"
+  },
+  {
+   "date": "20261103",
+   "title": "SGS AI OS 全景 · 2026-11-03 期报"
+  },
+  {
+   "date": "20261102",
+   "title": "SGS AI OS 全景 · 2026-11-02 期报"
+  }
+ ]
+}
