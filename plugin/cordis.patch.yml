@@ -1,0 +1,5 @@
+- insert:
+    - id: panorama
+      name: '@sgs/dsh-bundle-panorama'
+      config:
+        projectRoot: '__PROJECT_ROOT__'

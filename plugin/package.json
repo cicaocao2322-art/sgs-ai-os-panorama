@@ -1,0 +1,37 @@
+{
+  "name": "@sgs/dsh-bundle-panorama",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AIOS 全景：只读聚合六层目标、参谋待决与期报，侧栏一屏看清；写操作引导回 Artifact 原页。",
+  "type": "module",
+  "license": "UNLICENSED",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.png"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.png",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  }
+}
